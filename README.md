@@ -29,7 +29,7 @@ https://datasets.imdbws.com/
 
 * O maior desafio para realizar o notebook são as colunas de multiplos dados, ao longo do ipynb é possivel ver que varias vezes utilizamos a funcao split para separar em varias colunas dados que estavam em uma só, isso faz com que a coluna de filmes, por exemplo, tenha 3 generos diferentes, o que aumenta a complexidade de analisar um genero especifico.
 
-* Devido a enorme quantidade de memoria dos datasets, é inviavel realizar o download automatico pelo google colab de todos eles, portanto, o usuario *DEVE* baixar os arquivos title_basics e name_basics em sua maquina e realizar o upload no notebook manualmente, basta ir na aba de arquivos a esquerda e clicar no primeiro botao e escolher os arquivos.Como dito anteriormente, ele *IRA* estourar na metade, porem, por ele estar na metade, a RAM não chega em seu limite e, dessa forma, é possivel executar o projeto.
+* Devido a enorme quantidade de memoria dos datasets, é inviavel realizar o download automatico pelo google colab de todos eles, portanto, o usuario *DEVE* baixar os arquivos em sua maquina e realizar o upload no notebook manualmente, basta ir na aba de arquivos a esquerda e clicar no primeiro botao e escolher os arquivos.Como dito anteriormente, ele *IRA* estourar na metade, porem, por ele estar na metade, a RAM não chega em seu limite e, dessa forma, é possivel executar o projeto.
 
 * Isto é o que acontece se usamos a funcao files.upload para baixar automaticamente todos os datasets:
 
